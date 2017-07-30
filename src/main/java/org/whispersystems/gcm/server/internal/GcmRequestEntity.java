@@ -38,7 +38,8 @@ public class GcmRequestEntity {
   @JsonProperty(value = "data")
   private Map<String, String> data;
 
-  @JsonProperty(value = "registration_ids")
+//  @JsonProperty(value = "registration_ids")
+  @JsonProperty(value = "to")
   private List<String> registrationIds;
 
   @JsonProperty
